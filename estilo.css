@@ -1,0 +1,391 @@
+
+/* HEADER*/
+
+header .registro a{
+    color: darkblue;
+}
+.logo{
+    width: 140px !important;
+}
+.registro{
+    font-size: small;
+}
+.header{
+    width: 99% !important;
+    background-color: rgb(221, 217, 204);
+
+}
+.flex-sm-fill{
+    color: darkblue;
+}
+.banner{
+  padding-bottom: 400px;
+}
+.pais{
+    color: rgb(0, 21, 139);
+    
+}
+.paises img {
+    width: 20px;
+}
+svg{
+    color: grey;
+}
+span.titulo-card h4{
+    padding-top: 0px;
+    text-align: center;
+}
+.navbars , a.active{
+    color: darkblue !important;
+    background-color: rgb(221, 217, 204) !important;
+    padding-top: 10px;
+}
+div.navbar{
+    background-color:  rgb(235, 233, 226) !important;
+}
+
+/* MAIN */
+
+a.Continue{
+    color: black;
+    text-decoration: none;
+}
+
+section.row{
+    background-color:rgb(235, 233, 226) !important;
+}
+section.card_area{
+    margin-top: -350px !important;
+}
+h4{
+    background-color :rgb(221, 217, 204) !important;
+}
+a.esconder{
+    color: rgb(228, 223, 205) !important;
+    background-color: rgb(228, 223, 205) !important;
+}
+div.cardup{
+    margin-top: -200px !important;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+main div.card-body
+{
+    background-color:rgb(235, 233, 226) !important;
+}
+div.video{
+    margin-top: -10px !important;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+audio{
+    border: 4px solid;
+}
+
+div.cardsong{
+    width: 7rem !important;
+    margin-top: -600px !important;
+    margin-left: -80px !important;
+    padding: 10px !important;
+    
+}
+div.cardso{
+    width: 7rem !important;
+    margin-top: -400px !important;
+    margin-left: -80px !important;
+    padding: 10px !important;
+}
+div.cardson{
+    width: 7rem !important;
+    margin-top: -200px !important;
+    margin-left: -80px !important;
+    padding: 10px !important;
+}
+div.card-body5{
+    background-color: rgb(235, 233, 226) !important;
+}
+
+
+/* FIM MAIN */
+
+/* FOOTER */
+.footer{
+    background-color:  rgb(221, 217, 204) !important;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+footer div.card-body{
+    background-color: rgb(221, 217, 204) !important;
+}´
+
+/* Menu mobile */
+#menuToggle{
+    display: none;
+}
+.menu-icon{
+    display: none;
+}
+
+
+    @media (min-width:320px) and (max-width:700px){
+ 
+        header{
+            position: fixed;
+            top: -15px;
+            width: 400px !important;
+            margin-left: -3px !important;
+            z-index: 999 !important;
+        }
+        main{
+            margin-left: -10px !important;
+            width: 100% !important;
+        }
+        svg{
+            display: none;
+        }
+
+        div.cardup{
+            display: none;
+        }
+        div.cardtes{
+            display: none;
+        }
+        main div.somir{
+            display: none;
+        }
+        section.card_area2{
+            margin-top: 160px;
+        }
+    
+        div.cardsong{
+           display: none;
+            
+        }
+        .artecard{
+            display: none;
+        }
+     
+        a.noticias{
+            display: none !important;
+        }
+        a.esconder{
+            display: none;
+        }
+        input{
+            display: none;
+        }
+         main{
+             margin-top: -240px !important;
+         }
+         .footer{
+             margin-top: 6px !important;
+         }
+         div.cardsong{
+            display: none;
+         }
+         audio{
+             width: 300px !important;
+         }
+         .paises{
+             display: none;
+         }
+         .pais{
+             display: none;
+         }
+         div.cardso{
+             width: 7rem !important;
+             margin-top: -10px !important;
+             margin-left: -10px !important;
+            
+         }
+         audio{
+             margin-left: -10px !important;
+         }
+         div.cardson{
+             width: 7rem !important;
+             margin-top: -5px !important;
+             margin-left: -10px !important;
+         }
+         .logo{
+            width: 25% !important;
+            margin-left: 10px !important;
+        }
+        .banner{
+            margin-top: 450px !important;
+        }
+        div.video{
+            margin-top: -15px !important;
+        }
+        div.card-body5{
+            padding-bottom: 160px !important;
+            background-color: rgb(235, 233, 226) !important;
+        }
+    
+        
+      }
+      @media (min-width:720px) and (max-width:1023px){
+       .header{
+        position: fixed;
+        top: 0px;
+        width: 900px !important;
+        margin-left: -5px !important;
+        z-index: 999;
+       }
+       input{
+           display: none !important;
+       }
+       svg{
+           display: none !important;
+       }
+       .logo{
+           width: 30% !important;
+       }
+       main{
+           margin-top: 50px !important;
+           margin-left: 0px !important;
+       }
+       .pais{
+           display: none;
+       }
+       .paises{
+           display: none;
+       }
+       .banner{
+           margin-top: 160px !important;
+       }
+       div.artecard{
+           display: none;
+       }
+    
+       audio{
+           width: 600px !important;
+           margin-left: 40px !important;
+       }
+       div.cardsong{
+        display: none;
+     }
+     div.cardso{
+         width: 14rem !important;
+         margin-top: -10px !important;
+         margin-left: 00px !important;
+        
+     }
+     div.cardson{
+         width: 14rem !important;
+         margin-top: 0px !important;
+         margin-left: 00px !important;
+     }
+     #abaixa{
+         margin-top: 162px !important;
+     }
+     div.so{
+         margin-left: 500px !important;
+     }
+     .footer{
+         margin-top: 5px !important;
+         margin-left: 0px !important;
+         width: 100%;
+         padding-bottom: 20px;
+     }
+     .footercard{
+         margin-left: 10px;
+         width: 90% !important;
+     }
+     nav.registro{ 
+        width: 70% !important;
+        font-size: medium !important;
+        margin-right: 300px !important;
+        
+        }
+        div.cardup{
+            display: none;
+        }
+        div.cardtes{
+            display: none;
+        }
+        main div.somir{
+            display: none;
+        }
+    
+        div.cardsong{
+           display: none;
+            
+        }
+        .artecard{
+            display: none;
+        }
+     
+        a.noticias{
+            display: none !important;
+        }
+        a.esconder{
+            display: none;
+        }
+        
+
+   }  
+   @media (min-width:1024px) and (max-width:1366px){
+    body{
+        width: 100%;
+    }
+ header{
+     width: 1100px !important;
+     margin-left: 00px !important;
+ }
+ img.artecard3{
+     margin-top: 20px !important;
+     width: 150px !important;
+     bottom: 50px !important;
+ }
+ img.artecard2{
+     margin-bottom: -200px !important;
+     width: 120% !important;
+ }
+ div.artecard{
+    margin-top: 170px !important;
+    margin-left: 10px !important;
+    width: 150px !important;
+ }
+ 
+ audio{
+     margin-top: -2px !important;
+     margin-left: -4px !important;
+ }
+ section.card_area2{
+   margin-top: 0px !important;
+ }
+ div.video{
+    margin-top: 30px !important;
+ }
+ div.cardsong{
+  
+    padding: 15px !important;
+}
+div.cardso{
+
+    padding: 15px !important;
+}
+div.cardson{
+
+    padding: 15px !important;
+}
+.footer{
+    width: 100% !important;
+    margin-bottom: 200px !important;
+}
+
+
+   }
